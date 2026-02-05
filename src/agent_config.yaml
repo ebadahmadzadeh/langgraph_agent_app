@@ -1,0 +1,22 @@
+agent_name: "Prior Auth Agent"
+model:
+  name: "gpt-5.1-2025-11-13"
+  temperature: 0.1
+  top_p: 0.9
+  max_tokens: 4096
+  request_timeout: 60
+  streaming: true
+  use_responses_api: true
+local_tools:
+  - name: json_writer
+    enabled: true
+  - name: text_reader
+    enabled: false
+  - name: text_writer
+    enabled: true
+  - name: git_cloner
+    enabled: true
+system_prompt_file_path: /Users/ebadahmadzadeh/ms-code-projects/ethermed/langgraph_agent_app/src/system_prompt.txt
+skill: ""
+content: ""
+debug: false

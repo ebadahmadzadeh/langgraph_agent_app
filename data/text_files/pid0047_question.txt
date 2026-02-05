@@ -1,0 +1,1 @@
+What is a brief summary of the patient's hospital course and treatment, including admission diagnosis, imaging findings, medical interventions, and discharge diagnosis, based on the information in the discharge summary?

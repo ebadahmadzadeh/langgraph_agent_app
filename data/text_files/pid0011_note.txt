@@ -1,0 +1,22 @@
+Discharge Summary:
+
+Patient Name: [REDACTED]
+Medical Record Number: [REDACTED]
+Gender: Female
+Age: 45 years
+
+Hospital Course:
+The patient was admitted to the hospital after collapsing at home due to a hypoglycemic event. She had a history of restrictive AN, binge-purge behaviour, and an old traumatic brain injury, leaving her with memory problems. On admission, she was malnourished, cachexic, and dehydrated. Her chest X-ray showed patchy consolidations in the right middle and lower lobes. She was diagnosed with cholecystitis based on worsening liver enzymes and an abdominal ultrasound showing multiple small calculi and biliary debris, with gallbladder oedema. 
+
+Treatment:
+The patient was treated with appropriate antibiotics and underwent an inpatient magnetic resonance cholangiopancreatography (MRCP) to rule out intra-biliary pathology, which was negative. Amoxicillin, clavulanic acid, and clarithromycin were prescribed, which resulted in improvement in her inflammatory markers. She was referred to surgeons for consideration of elective laparoscopic cholecystectomy once deemed fit. 
+
+Outcome:
+The patient had a long and difficult admission, leading to a transfer to an Eating Disorders Unit, which was delayed due to the coronavirus disease 2019 pandemic. Her weight improved with nasogastric feeding and supplements during her hospital stay. Her liver enzymes showed improvement during the course of her treatment. She was finally discharged in stable condition to the Eating Disorders Unit, weighing 56.4 kg (BMI = 18.1) from her admission weight of 37.3 kg (BMI = 12.6).
+
+Post-Discharge Plan:
+The patient will continue her treatment for AN at the Eating Disorders Unit. She will be followed up regularly by the team for her medical, nutritional, and psychiatric needs. Close monitoring of her weight, liver function tests, and gallbladder status will be carried out. The patient will be advised to maintain a healthy diet and continue medications as per her discharge medications plan. Further evaluation of her cognitive and memory problems will be arranged. She will be advised to follow strict COVID-19 protocols to prevent infection. 
+
+Signed,
+[REDACTED]
+MD, Hospitalist

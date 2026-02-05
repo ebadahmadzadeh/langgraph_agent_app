@@ -1,0 +1,11 @@
+Hospital Course:
+
+The patient is a 78-year-old male with a history of cutaneous T-cell lymphoma/mycosis fungoides, type II diabetes mellitus, atrial flutter, and sick sinus syndrome who presented to the hospital with right upper quadrant abdominal pain. Laboratory evaluation revealed abnormal liver function tests with elevated AST/ALT and ALP levels and a total bilirubin level of 2.5 mg/dL.
+
+Imaging studies, including ultrasound of the abdomen, CT abdomen and pelvis, CT angiography of the chest, and HIDA scan were negative for acute pathology. Given the patient's medical history, the differential diagnosis included leukemic infiltration of the liver or adverse reaction to prior chemotherapy.
+
+A percutaneous liver biopsy was performed, and the results showed high-grade tumor cells with positive immunohistochemical staining for cytokeratin AE1/AE3, CK20, synaptophysin, and chromogranin, and negative for CK7, CDX-2, and TTF-1. These findings were consistent with metastatic Merkel cell carcinoma.
+
+The patient and family opted for comfort care measures given the medical comorbidities and were discharged home with consultation with Hematology/Oncology and Dermatology.
+
+Follow-up with primary care physician and palliative care team was recommended.

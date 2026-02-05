@@ -1,0 +1,32 @@
+Discharge Summary
+
+Patient Name: [redacted]
+Date of Admission: December 2, 2020
+Date of Discharge: December 26, 2020
+Medical Record Number: [redacted]
+
+Hospital Course:
+The patient, a 68-year-old female with no prior history of mental illness, was admitted to the hospital due to anxiety, fear, small steps while walking, reluctance to leave her home, speaking less, being slow to respond, and urinary incontinence. The patient had been diagnosed with GAD at a local mental health center and was prescribed paroxetine, tandospirone, and oxazepam prior to admission, which had initially improved her symptoms.
+
+Upon physical examination, the patient had normal limb muscle strength and tone, but her gait was not stable and she took small steps. In a psychological assessment, the patient exhibited clear consciousness, disorientation to place and time, passivity during interactions with few answers to questions, no hallucinations or delusions, a decline in memory and cognition; and a reduction in daily physical activities and energy levels. The patient had been diagnosed with type-II diabetes 4 years previously and had reported no other comorbidities.
+
+Lab testing revealed that the patient had subclinical hypothyroidism with diffused thyroid lesions and nodular changes as well as anti-thyroglobulin and anti-thyroid peroxidase antibodies. Imaging of the head showed brain atrophy and leukoaraiosis, while EEG recordings revealed diffuse slow waves. Based on her symptoms of rapidly progressive dementia and psychomotor retardation, and negative imaging and lab findings, the patient was suspected to have a paraneoplastic syndrome.
+
+However, lumbar puncture and cerebrospinal fluid examination were performed and showed a high anti-glutamate receptor (NMDA) ratio, leading to the diagnosis of autoimmune encephalitis. The patient was transferred to the neurology department and treated with immunoglobulin (IVIG) and methylprednisolone. After treatment, the patient showed gradual improvement in cognitive and emotional function and was discharged 24 days after admission without relapse at a 6-month follow-up.
+
+Hospital Diagnoses:
+1. Subclinical hypothyroidism with nodular changes
+2. Autoimmune encephalitis
+
+Hospital Procedures:
+1. Lumbar puncture
+2. Cerebrospinal fluid examination
+
+Hospital Medications:
+1. Venlafaxine
+2. Oxazepam
+3. Immunoglobulin (IVIG)
+4. Methylprednisolone
+
+Follow-up Instructions:
+The patient should continue regular follow-up appointments with her primary care physician and neurologist to monitor her hypothyroidism and autoimmune encephalitis, respectively. She should also have regular monitoring of her blood glucose levels to manage her type-II diabetes. If the patient experiences a relapse of symptoms, she should seek immediate medical attention.

@@ -1,0 +1,15 @@
+Hospital Course:
+
+This is a summary of the hospital course of a 5-year-old boy who was admitted with headache, right eye pain, and vomiting. He was diagnosed with acute hydrocephalus with cerebral edema and underwent an external ventricular drain insertion. Magnetic resonance imaging of the brain revealed diffuse enhancing nodular leptomeningeal thickening, especially at the basal cisterns. A diagnosis of tuberculous meningitis was considered, and the patient was classified as probable TB. A standard anti-TB regimen was initiated, and the patient's condition improved after 14 days. He was discharged well after a 4-week hospital stay. One month later, he presented again with vomiting, unsteady gait, and anorexia. A follow-up MRI revealed an exuberant nodular leptomeningeal enhancement that was more extensive than the initial study. Histopathological examination revealed a moderately cellular neoplastic proliferation, and the patient was diagnosed with DL-GNT. The parents opted for palliative treatment.
+
+Summary of Findings:
+
+The patient had a Glasgow Coma Scale (GCS) of 9 and left lateral strabismus. The pupils were unequal (4 mm/3 mm) and sluggish. Power in all four limbs was 4/5 with normal reflexes. Babinski was downgoing, and Kernig's sign was not elicited. Non-contrast CT brain showed acute hydrocephalus with cerebral edema, while MRI brain revealed diffuse enhancing nodular leptomeningeal thickening, especially at the basal cisterns. A diagnosis of tuberculous meningitis was considered based on high erythrocyte sedimentation rate (ESR) and elevated CSF protein with normal CSF glucose levels. Histopathological examination revealed a moderately cellular neoplastic proliferation, and the patient was diagnosed with DL-GNT. 
+
+Treatment:
+
+The patient was administered a standard anti-TB regimen consisting of isoniazid, rifampicin, pyrazinamide, and ethionamide. Intravenous dexamethasone was prescribed during the first 2 weeks of admission and was subsequently changed to oral administration.
+
+Outcome:
+
+The patient's condition improved considerably after 14 days, and he was discharged well after a 4-week hospital stay. However, one month later, he presented again with vomiting, unsteady gait, and anorexia. The parents opted for palliative treatment, and the patient succumbed to the illness 3 months later, 22 weeks in total, after diagnosis.

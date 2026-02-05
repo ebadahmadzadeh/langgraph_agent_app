@@ -1,0 +1,1 @@
+Based on the given discharge summary, can you summarize the patient's treatment plan for managing their breast cancer, including recommended medications and the rationale for switching from goserelin to triptorelin?

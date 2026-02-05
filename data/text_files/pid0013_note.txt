@@ -1,0 +1,21 @@
+DISCHARGE SUMMARY:
+
+Patient Name: X
+Medical Record Number: X
+Date of Admission: XX/XX/XX
+Date of Discharge: XX/XX/XX
+
+Hospital Course:
+A 36-year-old premenopausal woman with a family history of colorectal, hepatobiliary cancerspresented with an abnormal right breast lump. Diagnostic mammogram and ultrasound showed a highly suggestive malignant breast mass, which was confirmed by a biopsy of the dominant lesion. The patient underwent a right breast simple mastectomy with axillary lymph node evaluation and her pathology showed a multifocal invasive mammary carcinoma with ductal and lobular features. She received adjuvant PMRT 5000 cGy dose, 25 fractions with 1000 cGy scar boost. Based on TEXT/SOFT data, ovarian suppression was recommended to be considered as the patient had high-risk features. The patient was started on ovarian suppression with goserelin 3.6 mg every 28 days along with letrozole 2.5 mg once daily. Sixteen months after initiation of ovarian suppression, the patient started having a regular menstrual cycle while on goserelin. Given the high-risk disease, the benefit of continued ovarian suppression plus AIs versus tamoxifen alone was discussed, and the patient was hesitant about oophorectomy. She was started on triptorelin 3.75 mg IM once every 28 days.
+
+Summary of Findings:
+The patient is a premenopausal woman with a family history of cancers who was diagnosed with a highly suggestive malignant breast mass. She underwent a right breast simple mastectomy with axillary lymph node evaluation, and the pathology revealed a multifocal invasive mammary carcinoma with ductal and lobular features. The patient received adjuvant PMRT and underwent ovarian suppression after initiation of which the patient started having a regular menstrual cycle. Triptorelin was started in place of goserelin due to failure of ovarian ablation.
+
+Current Status:
+The patient is now in a stable condition and was discharged with instructions to follow up with her oncologist for further management as advised. Recommended for molecular and genetic testing if not done in their initial evaluation. Also, advised to discuss the role of oophorectomy to manage risks and benefits of such treatment further with oncologist.
+
+Discharge Medications:
+None
+
+Follow-up Appointments:
+Follow up with the oncologist for further evaluation.

@@ -1,0 +1,33 @@
+Discharge Summary:
+
+Patient Name: [Redacted]
+
+Medical Record Number: [Redacted]
+
+Admission Date: [Redacted]        Discharge Date: [Redacted]
+
+Admission Diagnosis: Stroke
+
+Hospital Course and Treatment:
+
+The patient, a 90-year-old male, was admitted to the hospital with a severe stroke. On admission, the patient presented with left facial droop, bilateral pinpoint pupils, and right-sided weakness. The Glasgow Coma Scale (GCS) score was 8/15, and the National Institutes of Health Stroke Scale (NIHSS) score was 26. A head CT was performed, which showed chronic small vessel disease with periventricular leukoaraiosis, consistent with the patient's age. Thrombolysis was initiated with an intravenous tissue-plasminogen activator, but the patient's GCS declined to 6/15 approximately 40 minutes after the start of thrombolysis. A repeat head CT showed no acute findings. The patient's condition was monitored conservatively to prevent further deterioration.
+
+Over the next few days, the patient remained very somnolent. When the patient was able to awaken, he was only capable of responding to simple commands. The patient had limited rehabilitation potential, with fatigue limiting conversations and poor engagement during therapy sessions. A third head CT several days after admission confirmed a bilateral thalamic infarct, with small left parietal cortical infarction. Imaging also confirmed the arterial location of the infarction, a single branch of the pre-communicating (P1) segment of the left posterior cerebral artery known as the artery of Percheron (AOP).
+
+The patient participated in multidisciplinary rehabilitation sessions over the next month and had a gradual return of physical function. He was unable to care for himself independently and was eventually discharged to a care home.
+
+Discharge Diagnosis:
+
+Stroke with bilateral thalamic infarcts and small left parietal cortical infarction.
+
+Discharge Medications:
+
+The patient's current medications were not listed in the case report.
+
+Discharge Instructions:
+
+The patient was discharged to a care home, where he would receive ongoing care.
+
+Follow-up:
+
+The patient passed away one year after the initial presentation to the hospital from an intercurrent chest infection. No further follow-up was necessary.

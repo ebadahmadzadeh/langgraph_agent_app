@@ -1,0 +1,9 @@
+Discharge Summary:
+
+Patient: 52-year-old male hospitalized for pneumonia and moderate ARDS
+
+Hospital Course:
+The patient was admitted to the hospital four days after the beginning of a dry cough, fever, and head and limb pain and tested COVID-19 positive. One day later, he was diagnosed with pneumonia that progressed into moderate ARDS and required mechanical ventilation and intermittent dialysis. After extubation, the patient experienced disorientation and an inability to communicate verbally due to global weakness (CPAx 11/50), accompanied by oral and pharyngeal weakness and paresthesia. Specialized physical therapy with the Gugging Swallowing Screen confirmed severe dysphagia, with the patient showing insufficient protection against aspiration. Treatment included therapy for dysphagia, such as intensive oral stimulation, facilitation of swallowing, and protection mechanism training, while receiving no food or drink by mouth. Over the next few days, the patient was able to swallow pureéd food and mildly thick liquids under supervision, although cough strength remained weak. The patient progressed gradually and became capable of independent food ingestion before discharge.
+
+Discharge:
+The patient was discharged 25 days after admission to a rehabilitation clinic. The patient's respiratory condition stabilized, although dysphagia was still evident, with mild oral and pharyngeal dry saliva residuals that continued to compromise paresthesia and needed ongoing regular oral care. Overall, the patient's condition improved and continued to progress during the hospital stay.
