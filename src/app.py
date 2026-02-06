@@ -15,7 +15,7 @@ OUTPUT_BASE_PATH = "/Users/ebadahmadzadeh/ms-code-projects/ethermed/langgraph_ag
 SKILL_PATH = "/Users/ebadahmadzadeh/ms-code-projects/ethermed/langgraph_agent_app/skills"
 
 
-def run_skill(skill_name: str, patient_id_list: list[int]) -> None:
+def run_skill(skill_name: str, patient_id_list: list[int], chat: bool=False) -> None:
     """Runs the specified skill for the given patient ID."""
     assert skill_name in ["clinical_insights_skill", "clinical_judge_skill"], \
         f"Unsupported skill name: {skill_name}"
@@ -64,7 +64,8 @@ def run_skill(skill_name: str, patient_id_list: list[int]) -> None:
                 documents_dict, root_tag="documents")
         p_start = time.perf_counter()
         token_usage = agents.run_agent(agent, session_id, stream_mode="values",
-                                       user_query=documents_xml, metadata=metadata)
+                                       chat=chat, user_query=documents_xml,
+                                       metadata=metadata)
 
         # measure runtime and token usage:
         p_duration = round(time.perf_counter() - p_start, 2)
@@ -96,6 +97,6 @@ def run_skill(skill_name: str, patient_id_list: list[int]) -> None:
 if __name__ == "__main__":
     # run skills:
     # PID_LIST = [2, 5, 11, 13, 20, 36]
-    PID_LIST = [11]
-    run_skill("clinical_insights_skill", patient_id_list=PID_LIST)
-    # run_skill("clinical_judge_skill", patient_id_list=PID_LIST)
+    PID_LIST = [2, 5, 11]
+    # run_skill("clinical_insights_skill", patient_id_list=PID_LIST, chat=False)
+    run_skill("clinical_judge_skill", patient_id_list=PID_LIST)
