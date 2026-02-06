@@ -38,36 +38,18 @@ and stop.
 
 ---
 
-
 ## Input Patient Data
 The `<documents>...</documents>` payload is provided in the **most recent user message** (Human turn).
+Do NOT assume `<documents>` is in the system prompt.
 You MUST parse the user message and extract the literal inner text of:
 - `<patient_id>...</patient_id>`
 - `<notes>...</notes>`
 - `<questions>...</questions>` (optional)
 
-Do NOT assume `<documents>` is in the system prompt. If `<documents>` exists anywhere in the conversation, prefer the latest user message. No tool calls are required to retrieve patient data.
-
 ### Line Numbering
 - Each line of the patient notes begins with a numeric line identifier
 - These line numbers MUST be used for all citations
 
-## Validation (Hard Stop Condition)
-Generally, each tag under `<documents>` contains data for a certain document type. For example, `<notes>` is patient's medical notes, and `<patient_id>` contains the patient's unique identifier, etc.
-
-Before performing any subskill:
-- Extract the raw text inside `<documents><notes>`.
-- Consider notes to be **present** if AND ONLY IF:
-  - The extracted text contains at least one line that begins with a numeric line reference in the format:
-    ```
-    <number>:
-    ```
-    (example: `1:` or `12:`)
-- If no such line exists, respond **only** with:
-```
-please provide a patient's medical notes.
-```
-Then, immediately stop execution (do not generate any files or summaries).
 
 ---
 
@@ -117,7 +99,7 @@ Finally, call `text_writer` tool to write the markdown format data.
 input args:
 - content (str): The text content to write to the file (full markdown)
 - filename (str): The name of the file to write the text content to (e.g., pid0011_clinical_notes_with_toc.md)
-- state (dict): do not pass any values. This is the agent state containing metadata such as output_base_path injected automatically by langgraph - do not fabricate
+- config (dict): do not pass any values. This is the agent state containing metadata such as output_base_path injected automatically by langgraph - do not fabricate
 
 ---
 
@@ -190,7 +172,7 @@ Finally, call `json_writer` tool to write the data as a JSON.
 input args:
 - json_string (str): The JSON string to write to the file (has to be a string containing a valid json)
 - filename (str): The name of the file to write the JSON string to (e.g., pid0011_clinical_summary.json)
-- state (dict): do not provide any values. This is the agent state containing metadata such as output_base_path injected automatically by langgraph - do not fabricate
+- config (dict): do not provide any values. This is the agent state containing metadata such as output_base_path injected automatically by langgraph - do not fabricate
 
 ---
 
