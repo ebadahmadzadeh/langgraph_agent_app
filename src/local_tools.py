@@ -5,18 +5,21 @@ import git
 from typing_extensions import Annotated
 from langchain.tools import tool, ToolException
 from langgraph.prebuilt import InjectedState
+from langchain_core.runnables import RunnableConfig
+
 
 @tool
-def json_writer(json_string: str, filename: str, state: Annotated[dict, InjectedState]) -> str:
+def json_writer(json_string: str, filename: str, config: RunnableConfig) -> str:
     """Writes a JSON string to a JSON file, given the filename.
     input args:
         json_string: str : The JSON string to write to the file (full markdown)
         filename: str : The name of the file to write the JSON string to (e.g., pid0011_clinical_summary.json)
-        state: dict : The agent state containing metadata such as output_base_path (injected automatically by langgraph - do not fabricate)
+        config: RunnableConfig : The runnable config containing metadata such as output_base_path (injected automatically by langgraph - do not fabricate)
     """
     try:
-        output_base_path = get_metadata_from_state(state, "output_base_path")
+        output_base_path = config.get("configurable", {}).get("output_base_path")
         filepath = os.path.join(output_base_path, filename)
+        print(f"\n\n***** json_writer: Writing JSON string to {filepath}\n\n\n")
         
         # Fix incomplete JSON by counting and completing braces
         json_string = json_string.strip()
@@ -54,15 +57,15 @@ def text_reader(filename: str,state: Annotated[dict, InjectedState]) -> str:
         raise ToolException(f"text_reader error: {e}")
 
 @tool
-def text_writer(content: str, filename: str, state: Annotated[dict, InjectedState]) -> str:
+def text_writer(content: str, filename: str, config: RunnableConfig) -> str:
     """Writes text to a file.
     input args:
         content: str : The text content to write to the file (full markdown)
         filename: str : The name of the file to write the text content to (e.g., pid0011_clinical_notes_with_toc.md)
-        state: dict : The agent state containing metadata such as output_base_path (injected automatically by langgraph - do not fabricate)
+        config: RunnableConfig : The runnable config containing metadata such as output_base_path (injected automatically by langgraph - do not fabricate)
     """
     try:
-        output_base_path = get_metadata_from_state(state, "output_base_path")
+        output_base_path = config.get("configurable", {}).get("output_base_path")
         filepath = os.path.join(output_base_path, filename)
         with open(filepath, 'w') as file:
             file.write(content)
@@ -78,7 +81,10 @@ def git_cloner(repo_url: str, clone_path: str) -> str:
 
 
 def get_metadata_from_state(state: dict, key: str) -> dict:
-    """Extracts metadata from the agent state messages."""
+    """Extracts metadata from the agent state messages.
+    This function is no longer used since we are now passing
+    metadata directly to the tools via RunnableConfig, but it
+    can be useful for other purposes or future extensions."""
     metadata = {}
     for m in reversed(state["messages"]):
         if getattr(m, "additional_kwargs", None):
@@ -123,9 +129,9 @@ def load_patient_data(patient_id: int, base_path: str = ".", line_numbers: bool 
 
 def create_xml_document(data: dict, root_tag: str="documents") -> str:
     """Creates a simple XML document from a dictionary."""
-    xml_content = f"<{root_tag}>\n"
+    xml_content = f"\n<{root_tag}>\n"
     for key, value in data.items():
-        xml_content += f"  <{key}>{value}</{key}>\n"
+        xml_content += f"<{key}>\n{value}\n</{key}>\n"
     xml_content += f"</{root_tag}>\n"
     return xml_content
 

@@ -13,6 +13,7 @@ from typing import Iterable, Optional, Sequence
 
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
+# from langgraph.prebuilt import create_react_agent as create_agent
 from langchain_core.messages import SystemMessage, AIMessage
 from langchain_core.messages import HumanMessage, ToolMessage, BaseMessage
 
@@ -97,10 +98,10 @@ class Agent:
     def _stream(self, content: str, session_id: str, stream_mode: str,
                 metadata: dict=None) -> Iterable[dict]:
         """Streams the agent execution."""
-        runnable_config = {"configurable": {"thread_id": session_id}}
+        metadata = metadata or {}
+        runnable_config = {
+            "configurable": {"thread_id": session_id, **metadata}}
         user_message = HumanMessage(content=content)
-        if metadata:
-            user_message.additional_kwargs = metadata
         inputs = {"messages": [user_message]}
         return self.agent.stream(
             inputs, stream_mode=stream_mode, config=runnable_config)
@@ -172,6 +173,7 @@ class Agent:
 
 def run_agent(agent: Agent, session_id: str,
               stream_mode: str="values",
+              chat: bool=False,
               user_query: str=None, metadata: dict=None) -> None:
     """Runs the agent with the given session ID and optional user query."""
     user_message = "start your analysis." if user_query is None else user_query
@@ -180,6 +182,7 @@ def run_agent(agent: Agent, session_id: str,
         session_id=session_id,
         stream_mode=stream_mode,
         metadata=metadata,
+        chat=chat,
         first_response_file_path=None)
     return agent.token_usage
 
